@@ -1,7 +1,7 @@
 #include <iostream>
-#include "./src/pat/hard/BattleOverCities_1013.h"
-
+#include "./src/pat/hard/ReversiblePrimes_1015.h"
+#include <fstream>
+using namespace std;
 int main() {
-    BattleOverCities_1013::IOWithCin::main();
-    return 0;
+    cout<<ReversiblePrimes_1015::main();
 }
